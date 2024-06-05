@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    background-color: #0A267F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:80px
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 5px #1f1e1e;
+    width: 100vw;
+}
+
+/* tamanho da tela branca */
+.tela-branca {
+
+  /*   position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%); */
+    width: 70%;
+    /* Defina a largura desejada */
+    height: 50%;
+    /* Defina a altura desejada */
+    background-color: white;
+    border-radius: 20px;
+}
+.texto-topo{
+    margin: 32px;
+}
+/* persolalização da palavra(letra) */
+p {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* persolalização da palavra(letra) */
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* persolalização da palavra(letra) */
+.preco {
+    color: black;
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* persolalização da palavra(letra) */
+span {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-weight: normal;
+}
+
+
+button {
+    text-align: center;
+    align-items: center;
+    background-color: #FD6229;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 13px 40px;
+    /* Ajuste o preenchimento para tornar o botão maior */
+    font-size: 25px;
+    /* Ajuste o tamanho da fonte para torná-lo maior */
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* tamanho do celebro */
+.celebro {
+    /* transform: translate(3%, -65%); */
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   /*  width: 90vw; */
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.vazia {
+    width: 33%;
+}
+
+.lista {
+    color: black;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+}
+
+/* tamanho da borboleta */
+.borboleta {
+    transform: translate(95%, -401%);
+}
+p {
+    text-align: center;
+}
+@media  (max-width:880px) {
+    button {
+        margin-top: 300px;
+        text-align: center;
+        align-items: center;
+        background-color: #FD6229;
+        color: rgb(255, 255, 255);
+        border: none;
+        font-size: 15px;
+        border-radius: 4px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    ul {
+        
+    }
+    .lista {
+        top: 100px;
+        font-size: 20px;
+    }
+    
+}
+
+@media  (max-width:480px) {
+    button {
+        margin-top: 300px;
+        text-align: center;
+        align-items: center;
+        background-color: #FD6229;
+        color: rgb(255, 255, 255);
+        border: none;
+        font-size: 15px;
+        border-radius: 4px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    ul {
+        
+    }
+    .lista {
+        top: 100px;
+        font-size: 20px;
+    }
+    
+}

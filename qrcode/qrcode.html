@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Boleto</title>
+    <link rel="stylesheet" href="qrcode.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="../logado/logado.html">
+            <div class="esquerda">
+                <img src="../scr/2.png" alt="Logo da Sua Empresa" style="width: 70px;">
+                <img src="../scr/4.png" alt="nome img" style="width: 300px;">
+            </div></a>
+        </div>
+    </header>
+    <main>
+        <div class="card main-card">
+            <div class="img">
+                <img height="400px" width="400px" src="../scr/pixqrcode.png" alt="" class="card-image">
+            </div>
+            <form action="../material/material.html#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="cpf" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+                <button type="submit">Confirmar Pagamento</button>
+
+            </form>
+
+
+        </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,233 @@
+/* Adicione estas regras ao seu arquivo login.css */
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+/* Estilos para os campos de entrada */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #0A267F;
+  color: #0A267F;
+  font-size: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos para o texto do título */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  /* Altere o tamanho do título conforme necessário */
+  color: #0A267F;
+  margin-bottom: 20px;
+  /* Adicione margem inferior ao título */
+}
+
+/* Estilos para os links */
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  /* Altere o tamanho dos links conforme necessário */
+  color: #51BCF9;
+  text-decoration: none;
+  /* Remova a sublinhado padrão dos links */
+}
+
+/* Estilos para o botão de login */
+button {
+  font-size: 1.5em;
+  /* Altere o tamanho do botão conforme necessário */
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background-color: #0A267F;
+  height: 56px;
+  width: 100%;
+  /* O botão ocupará toda a largura do seu contêiner */
+  border-radius: 20px;
+  border-color: #0A267F;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  /* Adiciona uma transição suave ao botão */
+}
+
+/* Estilos de hover para o botão de login */
+button:hover {
+  background-color: #0027a7;
+  /* Altere a cor de fundo ao passar o mouse */
+  border-color: #0A267F;
+  /* Altere a cor da borda ao passar o mouse */
+}
+
+/* Estilos para o texto de espaço reservado */
+::placeholder {
+  color: #0A267F;
+  padding: 20px;
+  font-size: 1.5em;
+  /* Altere o tamanho do espaço reservado conforme necessário */
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos para a div baixo */
+.baixo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  /* Espaçamento entre os elementos */
+}
+
+/* Estilos para a parte esquerda */
+.esquerda {
+  flex-grow: 1;
+  /* A parte esquerda expandirá para preencher o espaço disponível */
+  max-width: 50%;
+  /* Define a largura máxima da parte esquerda */
+}
+
+.responder {
+  align-items: center;
+  text-align: center;
+}
+
+/* Estilos para a parte direita */
+.direita {
+  flex-grow: 1;
+  /* A parte direita expandirá para preencher o espaço disponível */
+  max-width: 50%;
+  /* Define a largura máxima da parte direita */
+}
+
+/* Estilos para a imagem na parte direita */
+.imagem img {
+  width: 100%;
+  /* A imagem ocupará toda a largura do seu contêiner */
+  height: auto;
+  /* Altura automática para manter a proporção da imagem */
+}
+
+footer {
+  text-align: center;
+  /* Alinha o conteúdo do footer ao centro */
+  margin-top: 20px;
+  /* Adiciona uma margem superior para separar do conteúdo acima */
+}
+
+
+
+@media (max-width: 600px) {
+
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #0A267F;
+    color: #0A267F;
+    font-size: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /* Estilos para o texto do título */
+  h1 {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #0A267F;
+    margin-bottom: 20px;
+    /* Adicione margem inferior ao título */
+  }
+
+  .link {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+
+  /* Estilos para os links */
+  a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    /* Altere o tamanho dos links conforme necessário */
+    /* Remova a sublinhado padrão dos links */
+  }
+
+  /* Estilos para o botão de login */
+  button {
+    font-size: 1.5em;
+    /* Altere o tamanho do botão conforme necessário */
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #0A267F;
+    height: 56px;
+    width: 100%;
+    /* O botão ocupará toda a largura do seu contêiner */
+    border-radius: 20px;
+    border-color: #0A267F;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    /* Adiciona uma transição suave ao botão */
+  }
+
+  /* Estilos de hover para o botão de login */
+  button:hover {
+    background-color: #0027a7;
+    /* Altere a cor de fundo ao passar o mouse */
+    border-color: #0A267F;
+    /* Altere a cor da borda ao passar o mouse */
+  }
+
+  /* Estilos para o formulário */
+  form {
+
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200%;
+    max-width: 200px;
+    /* Defina a largura máxima do formulário */
+  }
+
+  /* Estilos para o texto de espaço reservado */
+  ::placeholder {
+    color: #0A267F;
+    padding: 20px;
+    font-size: 1.5em;
+    /* Altere o tamanho do espaço reservado conforme necessário */
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /* Estilos para a div baixo */
+  .baixo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    /* Espaçamento entre os elementos */
+  }
+
+  footer {
+    text-align: center;
+    /* Alinha o conteúdo do footer ao centro */
+    margin-top: 20px;
+    /* Adiciona uma margem superior para separar do conteúdo acima */
+  }
+}

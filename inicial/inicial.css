@@ -1,0 +1,264 @@
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  
+  /* Estilo do cabeçalho */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #1f1e1e;
+    font-family: 'Montserrat', sans-serif;
+    width: auto;
+  }
+  
+  /* Estilo da logo no cabeçalho */
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+  }
+
+  header a{
+    text-decoration: none;
+  }  
+  
+  /* Estilos de diferentes tamanhos de cabeçalho */
+  h1 {
+    text-align: center;
+    color: #000068;
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h2 {
+    color: #5e5d5d;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h3 {
+    color: #5e5d5d;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h4 {
+    color: #5e5d5d;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h5 {
+    color: #5e5d5d;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px #f8f5f5;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Container de imagem */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilos para links em container de imagem */
+  .image-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  /* Estilos de imagens */
+  .image-container img {
+    width: 350px; /* Define o tamanho desejado */
+    height: auto; /* Mantém a proporção original */
+  }
+  
+  /* Estilos para botões */
+  button {
+    color: white;
+    background-color: #FD6229;
+    border-radius: 20px;
+    font-size: 25px;
+    border: #ffffff;
+    box-shadow: 2px 2px 5px #000000;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Estilos para imagens dentro de 'main' */
+  main img {
+    padding: 20px;
+  }
+  
+  /* Estilos para links */
+  a {
+    color: #020070;
+  }
+  
+  /* Estilos para ícones */
+  svg {
+    text-align: right;
+    color: #000a44;
+  }
+  
+  /* Estilos para seções 'baixo' */
+  .baixo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+  }
+  
+  /* Estilos para perfis */
+  .perfi {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Estilos para seção executor */
+  .executor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilos para seção comunicador */
+  .comunicador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilos para seção planejador */
+  .planejador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilos para seção analista */
+  .analista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilos para descrições */
+  .disc {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* Estilos para títulos de descrições */
+  h4 {
+    font-family: 'Montserrat - semibold', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    border-color: #ffff;
+  }
+  
+  /* Estilos para parágrafos de descrições */
+  p {
+    font-family: 'Montserrat - semibold', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    border-color: #fff;
+    height: 0%;
+  }
+  
+  /* Estilos para seções 'qe', 'qc', 'qp', 'qa' */
+  .qe, .qc, .qp, .qa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+  }
+  
+  /* Estilos para seção 'qe' */
+  .qe {
+    background-color: #EF3D4D;
+    width: 250px;
+    border-radius: 30px;
+  }
+  
+  /* Estilos para letra 'D' */
+  .letraD {
+    color: #EF3D4D;
+  }
+  
+  /* Estilos para seção 'qc' */
+  .qc {
+    background-color: #FDBA13;
+    width: 250px;
+    border-radius: 30px;
+  }
+  
+  /* Estilos para letra 'I' */
+  .letraI {
+    color: #FDBA13;
+  }
+  
+  /* Estilos para seção 'qp' */
+  .qp {
+    background-color: #86C34E;
+    width: 250px;
+    border-radius: 30px;
+  }
+  
+  /* Estilos para letra 'S' */
+  .letraS {
+    color: #86C34E;
+  }
+  
+  /* Estilos para seção 'qa' */
+  .qa {
+    background-color: #5271FF;
+    width: 250px;
+    border-radius: 30px;
+  }
+  
+  /* Estilos para letra 'C' */
+  .letraC {
+    color: #5271FF;
+  }
+  
+  /* Estilos para tamanho de título 'h2' */
+  h2 {
+    font-family: 'Montserrat - semibold', sans-serif;
+    font-size: 80px;
+  }
+  
+  /* Estilos para título 'h1' */
+  h1 {
+    color: #000980;
+  }
+  
+  /* Media query para larguras menores */
+  @media (max-width: 390px) {
+    .baixo {
+        width: 100%;
+    }
+  }
+  

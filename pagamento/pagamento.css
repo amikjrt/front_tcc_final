@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0A267F;
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 5px #1f1e1e;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    justify-content: space-between;
+    width: 100%;
+}
+.header {
+    padding-bottom: 10px; /* Adiciona espaço entre o cabeçalho e os cartões */
+}
+.container {
+    border-color: #000000;
+    background-color: #ffffff;
+    max-width: 1000px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+h2 {
+    font-size: 20px;
+    color: #0A267F;
+}
+h3 {
+    font-size: 20px;
+    color: #0A267F;}
+h4 {
+    font-size: 20px;
+    color: #0A267F;}
+ h5 {
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+p{
+    color: #3448ff;
+}
+.visitar {
+    color: #ffffff;
+    background-color: #0A267F;
+}
+button {
+    background-color: #0A267F;
+    border-color: #000000;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+form {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0A267F;;
+    color: white;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+svg {
+    text-align: right;
+    color: #000a44;;
+
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+}
+
+@media  (max-width:480px) {
+    input {
+        padding: 5px;
+    }
+}

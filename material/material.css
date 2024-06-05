@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0A267F;
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 5px #1f1e1e;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; /* Espaçamento entre as imagens */
+}
+
+.image-container img {
+    width: 350px; /* Defina o tamanho desejado */
+    height: auto; /* Mantém a proporção original */
+}
+
+button {
+    color: white;
+    background-color: #FD6229;
+    border-radius: 20px;
+    font-size: 25px;
+    border: #ffffff;
+    box-shadow: 2px 2px 5px #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+main img {
+    padding: 20px;
+}
+
+.search-bar {
+    background-color: #0A267F;
+    padding: 10px;
+    text-align: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0 auto; 
+}
+
+.search-bar button {
+    padding: 8px 20px;
+    background-color: #2F633B;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-left: 5px; 
+}
+
+.search-bar button:hover {
+    background-color: #4899f5;
+}
+.card {
+border-color: #ffffff;
+background-color: rgb(255, 255, 255);
+}
+
+.row {
+    justify-content: center;
+}
+.search-card {
+    max-width: 500px;
+    background-color: #ffffff;
+    border: 1px solid #e4e4e4;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.search-input {
+    width: calc(100% - 90px); /* Subtrai o espaço ocupado pelo botão */
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-button {
+    width: 80px;
+    padding: 10px;
+    background-color: #0853a3;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+
+}
+/* Estilos para o botão do dropdown */
+.dropdown .btn {
+    background-color: #ffffff; /* Cor de fundo */
+    color: #000000; /* Cor do texto */
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #ffffff; /* Borda */
+  }
+  
+  /* Estilos para o menu do dropdown */
+  .dropdown-menu {
+    background-color: #ffffff; /* Cor de fundo */
+    border: 1px solid rgba(0, 0, 0, 0.125); /* Borda */
+  }
+  
+  /* Estilos para os itens do menu do dropdown */
+  .dropdown-menu .dropdown-item {
+    color: #000000; /* Cor do texto */
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Estilos para os itens ativos do menu do dropdown */
+  .dropdown-menu .dropdown-item.active,
+  .dropdown-menu .dropdown-item:active {
+    background-color: #ffffff; /* Cor de fundo */
+  }
+  
+  /* Estilos para a linha de divisão */
+  .dropdown-divider {
+    border-top-color: #000000; /* Cor da linha de divisão */
+  }
+  svg {
+    text-align: right;
+    color: #000a44;
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+}
